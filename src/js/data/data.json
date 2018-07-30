@@ -1,0 +1,126 @@
+{
+  "334e479d.fe7b58": {
+    "id": "334e479d.fe7b58",
+    "name": "A",
+    "relation": {},
+    "description": ""
+  },
+  "a19379cc.943ba8": {
+    "id": "a19379cc.943ba8",
+    "name": "B",
+    "relation": {},
+    "description": ""
+  },
+  "99c73d79.98e4": {
+    "id": "99c73d79.98e4",
+    "name": "D",
+    "relation": {
+      "1cb7141a.9a14dc": {
+        "targetId": "99c73d79.98e4",
+        "sourceId": "1cb7141a.9a14dc",
+        "relation": {
+          "sourceToTarget": "filter",
+          "targetToSource": "filter"
+        },
+        "relationKey": "",
+        "type": "filter"
+      }
+    },
+    "description": ""
+  },
+  "565c5ef6.d65ae": {
+    "id": "565c5ef6.d65ae",
+    "name": "E",
+    "relation": {
+      "1cb7141a.9a14dc": {
+        "targetId": "565c5ef6.d65ae",
+        "sourceId": "1cb7141a.9a14dc",
+        "relation": {
+          "sourceToTarget": "filter",
+          "targetToSource": "filter"
+        },
+        "relationKey": "",
+        "type": "filter"
+      }
+    },
+    "description": ""
+  },
+  "29db21e7.b158ae": {
+    "id": "29db21e7.b158ae",
+    "name": "D_1",
+    "relation": {
+      "1cb7141a.9a14dc": {
+        "targetId": "29db21e7.b158ae",
+        "sourceId": "1cb7141a.9a14dc",
+        "relation": {
+          "sourceToTarget": "filter",
+          "targetToSource": "filter"
+        },
+        "relationKey": "",
+        "type": "filter"
+      }
+    },
+    "description": ""
+  },
+  "87ccb82b.6966c8": {
+    "id": "87ccb82b.6966c8",
+    "name": "D_2",
+    "relation": {
+      "1cb7141a.9a14dc": {
+        "targetId": "87ccb82b.6966c8",
+        "sourceId": "1cb7141a.9a14dc",
+        "relation": {
+          "sourceToTarget": "filter",
+          "targetToSource": "filter"
+        },
+        "relationKey": "",
+        "type": "filter"
+      }
+    },
+    "description": ""
+  },
+  "88a8651e.b6eac8": {
+    "id": "88a8651e.b6eac8",
+    "name": "DE",
+    "relation": {},
+    "description": ""
+  },
+  "1cb7141a.9a14dc": {
+    "id": "1cb7141a.9a14dc",
+    "name": "C",
+    "relation": {
+      "a19379cc.943ba8": {
+        "targetId": "1cb7141a.9a14dc",
+        "sourceId": "a19379cc.943ba8",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      },
+      "334e479d.fe7b58": {
+        "targetId": "1cb7141a.9a14dc",
+        "sourceId": "334e479d.fe7b58",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      },
+      "88a8651e.b6eac8": {
+        "targetId": "1cb7141a.9a14dc",
+        "sourceId": "88a8651e.b6eac8",
+        "relation": {
+          "targetToSource": "DE",
+          "sourceToTarget": "C"
+        },
+        "relationKey": "company",
+        "type": "custom",
+        "targetName": "DE"
+      }
+    },
+    "description": ""
+  }
+}

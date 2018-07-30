@@ -1,0 +1,64 @@
+$basic-radius: 10px;
+
+#relationDiagram{
+  .LevelContainer{
+    display: flex;
+    padding: 25px 0;
+    border-bottom: 1px dashed red;
+    justify-content: center;
+  }
+  .objectBox {
+    display: inline-block;
+    width: 100px;
+    height: 80px;
+    border-radius: $basic-radius;
+    background-color: #eee;
+    text-align: center;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    color:black;
+    border:2px solid black;
+    .title {
+      text-decoration: underline;
+    }
+    .description {
+      margin-top: 3px;
+      font-size: 0.5em;
+    }
+    &:hover {
+      background-color: #ff6666;
+      cursor:pointer;
+    }
+  }
+
+  .arrow {
+    $arrow-color : black;
+    display: inline;
+
+    .line {
+      border:1px solid $arrow-color;
+      display: inline-block;
+      width:200px;
+      position: relative;
+      top: -4px;
+    }
+    .direction {
+      position: relative;
+      left:-5px;
+      display: inline-block;
+      width: 0; 
+      height: 0; 
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;  
+      border-left: 10px solid $arrow-color;
+    }
+  }
+  
+  .blank{
+    height:20px;
+    width:100%;
+  }
+}
+
+
+
