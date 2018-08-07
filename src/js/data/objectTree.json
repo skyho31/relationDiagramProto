@@ -1,0 +1,156 @@
+{
+  "1cb7141a.9a14dc": {
+    "name": "C",
+    "metric": [
+      "number",
+      "company"
+    ],
+    "parent": [],
+    "children": {
+      "a19379cc.943ba8": {
+        "targetId": "1cb7141a.9a14dc",
+        "sourceId": "a19379cc.943ba8",
+        "objectTypeName": null,
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": ""
+      },
+      "334e479d.fe7b58": {
+        "targetId": "1cb7141a.9a14dc",
+        "sourceId": "334e479d.fe7b58",
+        "objectTypeName": null,
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": ""
+      },
+      "88a8651e.b6eac8": {
+        "targetId": "1cb7141a.9a14dc",
+        "sourceId": "88a8651e.b6eac8",
+        "objectTypeName": null,
+        "relation": {
+          "targetToSource": "DE",
+          "sourceToTarget": "C"
+        },
+        "relationKey": "company"
+      }
+    }
+  },
+  "29db21e7.b158ae": {
+    "name": "D_1",
+    "metric": [
+      "number",
+      "company"
+    ],
+    "parent": [],
+    "children": {
+      "1cb7141a.9a14dc": {
+        "targetId": "29db21e7.b158ae",
+        "sourceId": "1cb7141a.9a14dc",
+        "objectTypeName": null,
+        "relation": {
+          "targetToSource": "filter",
+          "sourceToTarget": "filter"
+        },
+        "relationKey": ""
+      }
+    }
+  },
+  "334e479d.fe7b58": {
+    "name": "A",
+    "metric": [
+      "name",
+      "num",
+      "company"
+    ],
+    "parent": [
+      "1cb7141a.9a14dc"
+    ],
+    "children": {}
+  },
+  "565c5ef6.d65ae": {
+    "name": "E",
+    "metric": [
+      "number",
+      "company"
+    ],
+    "parent": [],
+    "children": {
+      "1cb7141a.9a14dc": {
+        "targetId": "565c5ef6.d65ae",
+        "sourceId": "1cb7141a.9a14dc",
+        "objectTypeName": null,
+        "relation": {
+          "targetToSource": "filter",
+          "sourceToTarget": "filter"
+        },
+        "relationKey": ""
+      }
+    }
+  },
+  "87ccb82b.6966c8": {
+    "name": "D_2",
+    "metric": [
+      "number",
+      "company"
+    ],
+    "parent": [],
+    "children": {
+      "1cb7141a.9a14dc": {
+        "targetId": "87ccb82b.6966c8",
+        "sourceId": "1cb7141a.9a14dc",
+        "objectTypeName": null,
+        "relation": {
+          "targetToSource": "filter",
+          "sourceToTarget": "filter"
+        },
+        "relationKey": ""
+      }
+    }
+  },
+  "88a8651e.b6eac8": {
+    "name": "DE",
+    "metric": [
+      "name",
+      "num",
+      "company"
+    ],
+    "parent": [],
+    "children": {}
+  },
+  "99c73d79.98e4": {
+    "name": "D",
+    "metric": [
+      "number",
+      "company"
+    ],
+    "parent": [],
+    "children": {
+      "1cb7141a.9a14dc": {
+        "targetId": "99c73d79.98e4",
+        "sourceId": "1cb7141a.9a14dc",
+        "objectTypeName": null,
+        "relation": {
+          "targetToSource": "filter",
+          "sourceToTarget": "filter"
+        },
+        "relationKey": ""
+      }
+    }
+  },
+  "a19379cc.943ba8": {
+    "name": "B",
+    "metric": [
+      "name",
+      "num",
+      "company"
+    ],
+    "parent": [
+      "1cb7141a.9a14dc"
+    ],
+    "children": {}
+  }
+}

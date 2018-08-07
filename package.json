@@ -25,9 +25,11 @@
   "dependencies": {
     "babel-preset-react": "^6.24.1",
     "css-loader": "^1.0.0",
+    "d3": "^5.5.0",
     "eslint": "^5.2.0",
     "eslint-loader": "^2.1.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
+    "file-loader": "^1.1.11",
     "jquery": "^3.3.1",
     "json-loader": "^0.5.7",
     "node-sass": "^4.9.2",

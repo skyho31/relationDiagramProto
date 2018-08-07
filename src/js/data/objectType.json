@@ -1,0 +1,1470 @@
+[
+  {
+    "x": 350,
+    "y": 320,
+    "z": "7654e3a3.5980bc",
+    "type": "object type",
+    "changed": false,
+    "_config": {
+      "visible": "true",
+      "active": "false",
+      "_objectType": "\"\"",
+      "ObjectType": "\"A\"",
+      "rule": "\"862be5a2.a85118\"",
+      "ObjectId": "\"{name}\"",
+      "TimeField": "\"null\"",
+      "DataReceiver": "\"\"",
+      "Metrics": "{}",
+      "Children": "[]",
+      "metricStore": "{}",
+      "filter": "\"\"",
+      "statusPalette": "\"886cd731.c6e3b8\"",
+      "Conditions": "{\"status\":[\"Undefined\"],\"value\":[]}",
+      "isCustomRule": "false",
+      "relation": "{}",
+      "description": "\"\"",
+      "x": 350,
+      "y": 320
+    },
+    "id": "334e479d.fe7b58",
+    "_def": {
+      "category": "dataengine",
+      "color": "#98d8de",
+      "defaults": {
+        "visible": {
+          "value": true
+        },
+        "active": {
+          "value": false
+        },
+        "_objectType": {
+          "value": ""
+        },
+        "ObjectType": {
+          "value": "",
+          "required": true
+        },
+        "rule": {
+          "type": "rule",
+          "required": false
+        },
+        "ObjectId": {
+          "value": ""
+        },
+        "TimeField": {
+          "value": ""
+        },
+        "DataReceiver": {
+          "value": ""
+        },
+        "Metrics": {
+          "value": {}
+        },
+        "Children": {
+          "value": []
+        },
+        "metricStore": {
+          "value": {},
+          "required": false
+        },
+        "filter": {
+          "value": ""
+        },
+        "statusPalette": {
+          "value": "",
+          "type": "statusPalette",
+          "required": false
+        },
+        "Conditions": {
+          "value": {
+            "status": [
+              "Undefined"
+            ],
+            "value": []
+          },
+          "required": false
+        },
+        "isCustomRule": {
+          "value": false
+        },
+        "relation": {
+          "value": {}
+        },
+        "description": {
+          "value": ""
+        }
+      },
+      "align": "inner",
+      "toggleIcon": {
+        "inactive": "",
+        "active": ""
+      },
+      "inputs": 1,
+      "outputs": 1,
+      "icon": "object_final.png",
+      "subButton": {
+        "id": "node-dialog-clear",
+        "class": "leftButton",
+        "title": "Clear Data"
+      },
+      "set": {
+        "id": "node-red/object_type",
+        "name": "object_type",
+        "types": [
+          "object type"
+        ],
+        "enabled": true,
+        "local": false,
+        "module": "node-red",
+        "version": "0.16.0-git",
+        "added": true
+      }
+    },
+    "inputs": 1,
+    "outputs": 1,
+    "visible": true,
+    "active": false,
+    "_objectType": "",
+    "ObjectType": "A",
+    "rule": "862be5a2.a85118",
+    "ObjectId": "{name}",
+    "TimeField": "null",
+    "DataReceiver": "",
+    "Metrics": {},
+    "Children": [],
+    "metricStore": {},
+    "filter": "",
+    "statusPalette": "886cd731.c6e3b8",
+    "Conditions": {
+      "status": [
+        "Undefined"
+      ],
+      "value": []
+    },
+    "isCustomRule": false,
+    "relation": {},
+    "description": "",
+    "ports": [
+      0
+    ],
+    "dirty": false,
+    "valid": true,
+    "w": 100,
+    "h": 30,
+    "_ports": [
+      [
+        {
+          "__data__": 0
+        }
+      ]
+    ],
+    "selected": false
+  },
+  {
+    "x": 350,
+    "y": 360,
+    "z": "7654e3a3.5980bc",
+    "type": "object type",
+    "changed": false,
+    "_config": {
+      "visible": "true",
+      "active": "false",
+      "_objectType": "\"\"",
+      "ObjectType": "\"B\"",
+      "rule": "\"862be5a2.a85118\"",
+      "ObjectId": "\"{name}\"",
+      "TimeField": "\"null\"",
+      "DataReceiver": "\"\"",
+      "Metrics": "{\"name\":{\"Conditions\":\"\",\"DisplayName\":\"\",\"Hidden\":false,\"OrderIndex\":0,\"IsCustom\":false,\"isLocked\":false,\"priority\":\"0.0\"},\"num\":{\"Conditions\":\"\",\"DisplayName\":\"\",\"Hidden\":false,\"OrderIndex\":1,\"IsCustom\":false,\"isLocked\":false,\"priority\":\"0.0\"},\"company\":{\"Conditions\":\"\",\"DisplayName\":\"\",\"Hidden\":false,\"OrderIndex\":2,\"IsCustom\":false,\"isLocked\":false,\"priority\":\"0.0\"}}",
+      "Children": "[]",
+      "metricStore": "{}",
+      "filter": "\"\"",
+      "statusPalette": "\"886cd731.c6e3b8\"",
+      "Conditions": "{\"status\":[\"Undefined\"],\"value\":[]}",
+      "isCustomRule": "false",
+      "relation": "{}",
+      "description": "\"\"",
+      "x": 350,
+      "y": 360
+    },
+    "id": "a19379cc.943ba8",
+    "_def": {
+      "category": "dataengine",
+      "color": "#98d8de",
+      "defaults": {
+        "visible": {
+          "value": true
+        },
+        "active": {
+          "value": false
+        },
+        "_objectType": {
+          "value": ""
+        },
+        "ObjectType": {
+          "value": "",
+          "required": true
+        },
+        "rule": {
+          "type": "rule",
+          "required": false
+        },
+        "ObjectId": {
+          "value": ""
+        },
+        "TimeField": {
+          "value": ""
+        },
+        "DataReceiver": {
+          "value": ""
+        },
+        "Metrics": {
+          "value": {}
+        },
+        "Children": {
+          "value": []
+        },
+        "metricStore": {
+          "value": {},
+          "required": false
+        },
+        "filter": {
+          "value": ""
+        },
+        "statusPalette": {
+          "value": "",
+          "type": "statusPalette",
+          "required": false
+        },
+        "Conditions": {
+          "value": {
+            "status": [
+              "Undefined"
+            ],
+            "value": []
+          },
+          "required": false
+        },
+        "isCustomRule": {
+          "value": false
+        },
+        "relation": {
+          "value": {}
+        },
+        "description": {
+          "value": ""
+        }
+      },
+      "align": "inner",
+      "toggleIcon": {
+        "inactive": "",
+        "active": ""
+      },
+      "inputs": 1,
+      "outputs": 1,
+      "icon": "object_final.png",
+      "subButton": {
+        "id": "node-dialog-clear",
+        "class": "leftButton",
+        "title": "Clear Data"
+      },
+      "set": {
+        "id": "node-red/object_type",
+        "name": "object_type",
+        "types": [
+          "object type"
+        ],
+        "enabled": true,
+        "local": false,
+        "module": "node-red",
+        "version": "0.16.0-git",
+        "added": true
+      }
+    },
+    "inputs": 1,
+    "outputs": 1,
+    "visible": true,
+    "active": false,
+    "_objectType": "",
+    "ObjectType": "B",
+    "rule": "862be5a2.a85118",
+    "ObjectId": "{name}",
+    "TimeField": "null",
+    "DataReceiver": "",
+    "Metrics": {
+      "name": {
+        "Conditions": "",
+        "DisplayName": "",
+        "Hidden": false,
+        "OrderIndex": 0,
+        "IsCustom": false,
+        "isLocked": false,
+        "priority": "0.0"
+      },
+      "num": {
+        "Conditions": "",
+        "DisplayName": "",
+        "Hidden": false,
+        "OrderIndex": 1,
+        "IsCustom": false,
+        "isLocked": false,
+        "priority": "0.0"
+      },
+      "company": {
+        "Conditions": "",
+        "DisplayName": "",
+        "Hidden": false,
+        "OrderIndex": 2,
+        "IsCustom": false,
+        "isLocked": false,
+        "priority": "0.0"
+      }
+    },
+    "Children": [],
+    "metricStore": {},
+    "filter": "",
+    "statusPalette": "886cd731.c6e3b8",
+    "Conditions": {
+      "status": [
+        "Undefined"
+      ],
+      "value": []
+    },
+    "isCustomRule": false,
+    "relation": {},
+    "description": "",
+    "ports": [
+      0
+    ],
+    "dirty": false,
+    "valid": true,
+    "w": 100,
+    "h": 30,
+    "_ports": [
+      [
+        {
+          "__data__": 0
+        }
+      ]
+    ],
+    "selected": false
+  },
+  {
+    "x": 1030,
+    "y": 300,
+    "z": "7654e3a3.5980bc",
+    "type": "object type",
+    "changed": false,
+    "_config": {
+      "visible": "true",
+      "active": "false",
+      "_objectType": "\"\"",
+      "ObjectType": "\"D\"",
+      "rule": "\"862be5a2.a85118\"",
+      "ObjectId": "\"{company}\"",
+      "TimeField": "\"null\"",
+      "DataReceiver": "\"\"",
+      "Metrics": "{\"number\":{\"Conditions\":\"\",\"DisplayName\":\"\",\"Hidden\":false,\"OrderIndex\":0,\"IsCustom\":false,\"priority\":\"0.0\"},\"company\":{\"Conditions\":\"\",\"DisplayName\":\"\",\"Hidden\":false,\"OrderIndex\":1,\"IsCustom\":false,\"priority\":\"0.0\"}}",
+      "Children": "[]",
+      "metricStore": "{}",
+      "filter": "\"bc3f104d.b931b\"",
+      "statusPalette": "\"886cd731.c6e3b8\"",
+      "Conditions": "{\"status\":[\"Undefined\"],\"value\":[]}",
+      "isCustomRule": "false",
+      "relation": "{\"1cb7141a.9a14dc\":{\"targetId\":\"99c73d79.98e4\",\"sourceId\":\"1cb7141a.9a14dc\",\"relation\":{\"sourceToTarget\":\"filter\",\"targetToSource\":\"filter\"},\"relationKey\":\"\",\"type\":\"filter\"}}",
+      "description": "\"\"",
+      "x": 1030,
+      "y": 300
+    },
+    "id": "99c73d79.98e4",
+    "_def": {
+      "category": "dataengine",
+      "color": "#98d8de",
+      "defaults": {
+        "visible": {
+          "value": true
+        },
+        "active": {
+          "value": false
+        },
+        "_objectType": {
+          "value": ""
+        },
+        "ObjectType": {
+          "value": "",
+          "required": true
+        },
+        "rule": {
+          "type": "rule",
+          "required": false
+        },
+        "ObjectId": {
+          "value": ""
+        },
+        "TimeField": {
+          "value": ""
+        },
+        "DataReceiver": {
+          "value": ""
+        },
+        "Metrics": {
+          "value": {}
+        },
+        "Children": {
+          "value": []
+        },
+        "metricStore": {
+          "value": {},
+          "required": false
+        },
+        "filter": {
+          "value": ""
+        },
+        "statusPalette": {
+          "value": "",
+          "type": "statusPalette",
+          "required": false
+        },
+        "Conditions": {
+          "value": {
+            "status": [
+              "Undefined"
+            ],
+            "value": []
+          },
+          "required": false
+        },
+        "isCustomRule": {
+          "value": false
+        },
+        "relation": {
+          "value": {}
+        },
+        "description": {
+          "value": ""
+        }
+      },
+      "align": "inner",
+      "toggleIcon": {
+        "inactive": "",
+        "active": ""
+      },
+      "inputs": 1,
+      "outputs": 1,
+      "icon": "object_final.png",
+      "subButton": {
+        "id": "node-dialog-clear",
+        "class": "leftButton",
+        "title": "Clear Data"
+      },
+      "set": {
+        "id": "node-red/object_type",
+        "name": "object_type",
+        "types": [
+          "object type"
+        ],
+        "enabled": true,
+        "local": false,
+        "module": "node-red",
+        "version": "0.16.0-git",
+        "added": true
+      }
+    },
+    "inputs": 1,
+    "outputs": 1,
+    "visible": true,
+    "active": false,
+    "_objectType": "",
+    "ObjectType": "D",
+    "rule": "862be5a2.a85118",
+    "ObjectId": "{company}",
+    "TimeField": "null",
+    "DataReceiver": "",
+    "Metrics": {
+      "number": {
+        "Conditions": "",
+        "DisplayName": "",
+        "Hidden": false,
+        "OrderIndex": 0,
+        "IsCustom": false,
+        "priority": "0.0"
+      },
+      "company": {
+        "Conditions": "",
+        "DisplayName": "",
+        "Hidden": false,
+        "OrderIndex": 1,
+        "IsCustom": false,
+        "priority": "0.0"
+      }
+    },
+    "Children": [],
+    "metricStore": {},
+    "filter": "bc3f104d.b931b",
+    "statusPalette": "886cd731.c6e3b8",
+    "Conditions": {
+      "status": [
+        "Undefined"
+      ],
+      "value": []
+    },
+    "isCustomRule": false,
+    "relation": {
+      "1cb7141a.9a14dc": {
+        "targetId": "99c73d79.98e4",
+        "sourceId": "1cb7141a.9a14dc",
+        "relation": {
+          "sourceToTarget": "filter",
+          "targetToSource": "filter"
+        },
+        "relationKey": "",
+        "type": "filter"
+      }
+    },
+    "description": "",
+    "ports": [
+      0
+    ],
+    "dirty": false,
+    "valid": true,
+    "w": 100,
+    "h": 30,
+    "_ports": [
+      [
+        {
+          "__data__": 0
+        }
+      ]
+    ],
+    "selected": false
+  },
+  {
+    "x": 1030,
+    "y": 340,
+    "z": "7654e3a3.5980bc",
+    "type": "object type",
+    "changed": false,
+    "_config": {
+      "visible": "true",
+      "active": "false",
+      "_objectType": "\"\"",
+      "ObjectType": "\"E\"",
+      "ObjectId": "\"{company}\"",
+      "TimeField": "\"null\"",
+      "DataReceiver": "\"\"",
+      "Metrics": "{}",
+      "Children": "[]",
+      "metricStore": "{}",
+      "filter": "\"bc3f104d.b931b\"",
+      "statusPalette": "\"886cd731.c6e3b8\"",
+      "Conditions": "{\"status\":[\"Undefined\"],\"value\":[]}",
+      "isCustomRule": "false",
+      "relation": "{\"1cb7141a.9a14dc\":{\"targetId\":\"565c5ef6.d65ae\",\"sourceId\":\"1cb7141a.9a14dc\",\"relation\":{\"sourceToTarget\":\"filter\",\"targetToSource\":\"filter\"},\"relationKey\":\"\",\"type\":\"filter\"}}",
+      "description": "\"\"",
+      "x": 1030,
+      "y": 340
+    },
+    "id": "565c5ef6.d65ae",
+    "_def": {
+      "category": "dataengine",
+      "color": "#98d8de",
+      "defaults": {
+        "visible": {
+          "value": true
+        },
+        "active": {
+          "value": false
+        },
+        "_objectType": {
+          "value": ""
+        },
+        "ObjectType": {
+          "value": "",
+          "required": true
+        },
+        "rule": {
+          "type": "rule",
+          "required": false
+        },
+        "ObjectId": {
+          "value": ""
+        },
+        "TimeField": {
+          "value": ""
+        },
+        "DataReceiver": {
+          "value": ""
+        },
+        "Metrics": {
+          "value": {}
+        },
+        "Children": {
+          "value": []
+        },
+        "metricStore": {
+          "value": {},
+          "required": false
+        },
+        "filter": {
+          "value": ""
+        },
+        "statusPalette": {
+          "value": "",
+          "type": "statusPalette",
+          "required": false
+        },
+        "Conditions": {
+          "value": {
+            "status": [
+              "Undefined"
+            ],
+            "value": []
+          },
+          "required": false
+        },
+        "isCustomRule": {
+          "value": false
+        },
+        "relation": {
+          "value": {}
+        },
+        "description": {
+          "value": ""
+        }
+      },
+      "align": "inner",
+      "toggleIcon": {
+        "inactive": "",
+        "active": ""
+      },
+      "inputs": 1,
+      "outputs": 1,
+      "icon": "object_final.png",
+      "subButton": {
+        "id": "node-dialog-clear",
+        "class": "leftButton",
+        "title": "Clear Data"
+      },
+      "set": {
+        "id": "node-red/object_type",
+        "name": "object_type",
+        "types": [
+          "object type"
+        ],
+        "enabled": true,
+        "local": false,
+        "module": "node-red",
+        "version": "0.16.0-git",
+        "added": true
+      }
+    },
+    "inputs": 1,
+    "outputs": 1,
+    "visible": true,
+    "active": false,
+    "_objectType": "",
+    "ObjectType": "E",
+    "ObjectId": "{company}",
+    "TimeField": "null",
+    "DataReceiver": "",
+    "Metrics": {},
+    "Children": [],
+    "metricStore": {},
+    "filter": "bc3f104d.b931b",
+    "statusPalette": "886cd731.c6e3b8",
+    "Conditions": {
+      "status": [
+        "Undefined"
+      ],
+      "value": []
+    },
+    "isCustomRule": false,
+    "relation": {
+      "1cb7141a.9a14dc": {
+        "targetId": "565c5ef6.d65ae",
+        "sourceId": "1cb7141a.9a14dc",
+        "relation": {
+          "sourceToTarget": "filter",
+          "targetToSource": "filter"
+        },
+        "relationKey": "",
+        "type": "filter"
+      }
+    },
+    "description": "",
+    "ports": [
+      0
+    ],
+    "dirty": false,
+    "valid": true,
+    "w": 100,
+    "h": 30,
+    "_ports": [
+      [
+        {
+          "__data__": 0
+        }
+      ]
+    ],
+    "selected": false
+  },
+  {
+    "x": 1030,
+    "y": 380,
+    "z": "7654e3a3.5980bc",
+    "type": "object type",
+    "changed": false,
+    "_config": {
+      "visible": "true",
+      "active": "false",
+      "_objectType": "\"\"",
+      "ObjectType": "\"D_1\"",
+      "rule": "\"862be5a2.a85118\"",
+      "ObjectId": "\"{company}\"",
+      "TimeField": "\"null\"",
+      "DataReceiver": "\"\"",
+      "Metrics": "{\"number\":{\"Conditions\":\"\",\"DisplayName\":\"\",\"Hidden\":false,\"OrderIndex\":0,\"IsCustom\":false,\"priority\":\"0.0\"},\"company\":{\"Conditions\":\"\",\"DisplayName\":\"\",\"Hidden\":false,\"OrderIndex\":1,\"IsCustom\":false,\"priority\":\"0.0\"}}",
+      "Children": "[]",
+      "metricStore": "{}",
+      "filter": "\"f7df399.ecf58c8\"",
+      "statusPalette": "\"886cd731.c6e3b8\"",
+      "Conditions": "{\"status\":[\"Undefined\"],\"value\":[]}",
+      "isCustomRule": "false",
+      "relation": "{\"1cb7141a.9a14dc\":{\"targetId\":\"29db21e7.b158ae\",\"sourceId\":\"1cb7141a.9a14dc\",\"relation\":{\"sourceToTarget\":\"filter\",\"targetToSource\":\"filter\"},\"relationKey\":\"\",\"type\":\"filter\"}}",
+      "description": "\"\"",
+      "x": 1030,
+      "y": 380
+    },
+    "id": "29db21e7.b158ae",
+    "_def": {
+      "category": "dataengine",
+      "color": "#98d8de",
+      "defaults": {
+        "visible": {
+          "value": true
+        },
+        "active": {
+          "value": false
+        },
+        "_objectType": {
+          "value": ""
+        },
+        "ObjectType": {
+          "value": "",
+          "required": true
+        },
+        "rule": {
+          "type": "rule",
+          "required": false
+        },
+        "ObjectId": {
+          "value": ""
+        },
+        "TimeField": {
+          "value": ""
+        },
+        "DataReceiver": {
+          "value": ""
+        },
+        "Metrics": {
+          "value": {}
+        },
+        "Children": {
+          "value": []
+        },
+        "metricStore": {
+          "value": {},
+          "required": false
+        },
+        "filter": {
+          "value": ""
+        },
+        "statusPalette": {
+          "value": "",
+          "type": "statusPalette",
+          "required": false
+        },
+        "Conditions": {
+          "value": {
+            "status": [
+              "Undefined"
+            ],
+            "value": []
+          },
+          "required": false
+        },
+        "isCustomRule": {
+          "value": false
+        },
+        "relation": {
+          "value": {}
+        },
+        "description": {
+          "value": ""
+        }
+      },
+      "align": "inner",
+      "toggleIcon": {
+        "inactive": "",
+        "active": ""
+      },
+      "inputs": 1,
+      "outputs": 1,
+      "icon": "object_final.png",
+      "subButton": {
+        "id": "node-dialog-clear",
+        "class": "leftButton",
+        "title": "Clear Data"
+      },
+      "set": {
+        "id": "node-red/object_type",
+        "name": "object_type",
+        "types": [
+          "object type"
+        ],
+        "enabled": true,
+        "local": false,
+        "module": "node-red",
+        "version": "0.16.0-git",
+        "added": true
+      }
+    },
+    "inputs": 1,
+    "outputs": 1,
+    "visible": true,
+    "active": false,
+    "_objectType": "",
+    "ObjectType": "D_1",
+    "rule": "862be5a2.a85118",
+    "ObjectId": "{company}",
+    "TimeField": "null",
+    "DataReceiver": "",
+    "Metrics": {
+      "number": {
+        "Conditions": "",
+        "DisplayName": "",
+        "Hidden": false,
+        "OrderIndex": 0,
+        "IsCustom": false,
+        "priority": "0.0"
+      },
+      "company": {
+        "Conditions": "",
+        "DisplayName": "",
+        "Hidden": false,
+        "OrderIndex": 1,
+        "IsCustom": false,
+        "priority": "0.0"
+      }
+    },
+    "Children": [],
+    "metricStore": {},
+    "filter": "f7df399.ecf58c8",
+    "statusPalette": "886cd731.c6e3b8",
+    "Conditions": {
+      "status": [
+        "Undefined"
+      ],
+      "value": []
+    },
+    "isCustomRule": false,
+    "relation": {
+      "1cb7141a.9a14dc": {
+        "targetId": "29db21e7.b158ae",
+        "sourceId": "1cb7141a.9a14dc",
+        "relation": {
+          "sourceToTarget": "filter",
+          "targetToSource": "filter"
+        },
+        "relationKey": "",
+        "type": "filter"
+      }
+    },
+    "description": "",
+    "ports": [
+      0
+    ],
+    "dirty": false,
+    "valid": true,
+    "w": 100,
+    "h": 30,
+    "_ports": [
+      [
+        {
+          "__data__": 0
+        }
+      ]
+    ],
+    "selected": false
+  },
+  {
+    "x": 1030,
+    "y": 420,
+    "z": "7654e3a3.5980bc",
+    "type": "object type",
+    "changed": false,
+    "_config": {
+      "visible": "true",
+      "active": "false",
+      "_objectType": "\"\"",
+      "ObjectType": "\"D_2\"",
+      "ObjectId": "\"{company}\"",
+      "TimeField": "\"null\"",
+      "DataReceiver": "\"\"",
+      "Metrics": "{}",
+      "Children": "[]",
+      "metricStore": "{}",
+      "filter": "\"f7df399.ecf58c8\"",
+      "statusPalette": "\"886cd731.c6e3b8\"",
+      "Conditions": "{\"status\":[\"Undefined\"],\"value\":[]}",
+      "isCustomRule": "false",
+      "relation": "{\"1cb7141a.9a14dc\":{\"targetId\":\"87ccb82b.6966c8\",\"sourceId\":\"1cb7141a.9a14dc\",\"relation\":{\"sourceToTarget\":\"filter\",\"targetToSource\":\"filter\"},\"relationKey\":\"\",\"type\":\"filter\"}}",
+      "description": "\"\"",
+      "x": 1030,
+      "y": 420
+    },
+    "id": "87ccb82b.6966c8",
+    "_def": {
+      "category": "dataengine",
+      "color": "#98d8de",
+      "defaults": {
+        "visible": {
+          "value": true
+        },
+        "active": {
+          "value": false
+        },
+        "_objectType": {
+          "value": ""
+        },
+        "ObjectType": {
+          "value": "",
+          "required": true
+        },
+        "rule": {
+          "type": "rule",
+          "required": false
+        },
+        "ObjectId": {
+          "value": ""
+        },
+        "TimeField": {
+          "value": ""
+        },
+        "DataReceiver": {
+          "value": ""
+        },
+        "Metrics": {
+          "value": {}
+        },
+        "Children": {
+          "value": []
+        },
+        "metricStore": {
+          "value": {},
+          "required": false
+        },
+        "filter": {
+          "value": ""
+        },
+        "statusPalette": {
+          "value": "",
+          "type": "statusPalette",
+          "required": false
+        },
+        "Conditions": {
+          "value": {
+            "status": [
+              "Undefined"
+            ],
+            "value": []
+          },
+          "required": false
+        },
+        "isCustomRule": {
+          "value": false
+        },
+        "relation": {
+          "value": {}
+        },
+        "description": {
+          "value": ""
+        }
+      },
+      "align": "inner",
+      "toggleIcon": {
+        "inactive": "",
+        "active": ""
+      },
+      "inputs": 1,
+      "outputs": 1,
+      "icon": "object_final.png",
+      "subButton": {
+        "id": "node-dialog-clear",
+        "class": "leftButton",
+        "title": "Clear Data"
+      },
+      "set": {
+        "id": "node-red/object_type",
+        "name": "object_type",
+        "types": [
+          "object type"
+        ],
+        "enabled": true,
+        "local": false,
+        "module": "node-red",
+        "version": "0.16.0-git",
+        "added": true
+      }
+    },
+    "inputs": 1,
+    "outputs": 1,
+    "visible": true,
+    "active": false,
+    "_objectType": "",
+    "ObjectType": "D_2",
+    "ObjectId": "{company}",
+    "TimeField": "null",
+    "DataReceiver": "",
+    "Metrics": {},
+    "Children": [],
+    "metricStore": {},
+    "filter": "f7df399.ecf58c8",
+    "statusPalette": "886cd731.c6e3b8",
+    "Conditions": {
+      "status": [
+        "Undefined"
+      ],
+      "value": []
+    },
+    "isCustomRule": false,
+    "relation": {
+      "1cb7141a.9a14dc": {
+        "targetId": "87ccb82b.6966c8",
+        "sourceId": "1cb7141a.9a14dc",
+        "relation": {
+          "sourceToTarget": "filter",
+          "targetToSource": "filter"
+        },
+        "relationKey": "",
+        "type": "filter"
+      }
+    },
+    "description": "",
+    "ports": [
+      0
+    ],
+    "dirty": false,
+    "valid": true,
+    "w": 100,
+    "h": 30,
+    "_ports": [
+      [
+        {
+          "__data__": 0
+        }
+      ]
+    ],
+    "selected": false
+  },
+  {
+    "x": 350,
+    "y": 420,
+    "z": "7654e3a3.5980bc",
+    "type": "object type",
+    "changed": false,
+    "_config": {
+      "visible": "true",
+      "active": "false",
+      "_objectType": "\"\"",
+      "ObjectType": "\"DE\"",
+      "rule": "\"862be5a2.a85118\"",
+      "ObjectId": "\"{name}\"",
+      "TimeField": "\"null\"",
+      "DataReceiver": "\"\"",
+      "Metrics": "{\"name\":{\"Conditions\":\"\",\"DisplayName\":\"\",\"Hidden\":false,\"OrderIndex\":0,\"IsCustom\":false,\"priority\":\"0.0\"},\"num\":{\"Conditions\":\"\",\"DisplayName\":\"\",\"Hidden\":false,\"OrderIndex\":1,\"IsCustom\":false,\"priority\":\"0.0\"},\"company\":{\"Conditions\":\"\",\"DisplayName\":\"\",\"Hidden\":false,\"OrderIndex\":2,\"IsCustom\":false,\"priority\":\"0.0\"}}",
+      "Children": "[]",
+      "metricStore": "{}",
+      "filter": "\"\"",
+      "statusPalette": "\"886cd731.c6e3b8\"",
+      "Conditions": "{\"status\":[\"Undefined\"],\"value\":[]}",
+      "isCustomRule": "false",
+      "relation": "{}",
+      "description": "\"\"",
+      "x": 350,
+      "y": 420
+    },
+    "id": "88a8651e.b6eac8",
+    "_def": {
+      "category": "dataengine",
+      "color": "#98d8de",
+      "defaults": {
+        "visible": {
+          "value": true
+        },
+        "active": {
+          "value": false
+        },
+        "_objectType": {
+          "value": ""
+        },
+        "ObjectType": {
+          "value": "",
+          "required": true
+        },
+        "rule": {
+          "type": "rule",
+          "required": false
+        },
+        "ObjectId": {
+          "value": ""
+        },
+        "TimeField": {
+          "value": ""
+        },
+        "DataReceiver": {
+          "value": ""
+        },
+        "Metrics": {
+          "value": {}
+        },
+        "Children": {
+          "value": []
+        },
+        "metricStore": {
+          "value": {},
+          "required": false
+        },
+        "filter": {
+          "value": ""
+        },
+        "statusPalette": {
+          "value": "",
+          "type": "statusPalette",
+          "required": false
+        },
+        "Conditions": {
+          "value": {
+            "status": [
+              "Undefined"
+            ],
+            "value": []
+          },
+          "required": false
+        },
+        "isCustomRule": {
+          "value": false
+        },
+        "relation": {
+          "value": {}
+        },
+        "description": {
+          "value": ""
+        }
+      },
+      "align": "inner",
+      "toggleIcon": {
+        "inactive": "",
+        "active": ""
+      },
+      "inputs": 1,
+      "outputs": 1,
+      "icon": "object_final.png",
+      "subButton": {
+        "id": "node-dialog-clear",
+        "class": "leftButton",
+        "title": "Clear Data"
+      },
+      "set": {
+        "id": "node-red/object_type",
+        "name": "object_type",
+        "types": [
+          "object type"
+        ],
+        "enabled": true,
+        "local": false,
+        "module": "node-red",
+        "version": "0.16.0-git",
+        "added": true
+      }
+    },
+    "inputs": 1,
+    "outputs": 1,
+    "visible": true,
+    "active": false,
+    "_objectType": "",
+    "ObjectType": "DE",
+    "rule": "862be5a2.a85118",
+    "ObjectId": "{name}",
+    "TimeField": "null",
+    "DataReceiver": "",
+    "Metrics": {
+      "name": {
+        "Conditions": "",
+        "DisplayName": "",
+        "Hidden": false,
+        "OrderIndex": 0,
+        "IsCustom": false,
+        "priority": "0.0"
+      },
+      "num": {
+        "Conditions": "",
+        "DisplayName": "",
+        "Hidden": false,
+        "OrderIndex": 1,
+        "IsCustom": false,
+        "priority": "0.0"
+      },
+      "company": {
+        "Conditions": "",
+        "DisplayName": "",
+        "Hidden": false,
+        "OrderIndex": 2,
+        "IsCustom": false,
+        "priority": "0.0"
+      }
+    },
+    "Children": [],
+    "metricStore": {},
+    "filter": "",
+    "statusPalette": "886cd731.c6e3b8",
+    "Conditions": {
+      "status": [
+        "Undefined"
+      ],
+      "value": []
+    },
+    "isCustomRule": false,
+    "relation": {},
+    "description": "",
+    "ports": [
+      0
+    ],
+    "dirty": false,
+    "valid": true,
+    "w": 100,
+    "h": 30,
+    "_ports": [
+      [
+        {
+          "__data__": 0
+        }
+      ]
+    ],
+    "selected": false
+  },
+  {
+    "x": 690,
+    "y": 360,
+    "z": "7654e3a3.5980bc",
+    "type": "object type",
+    "changed": false,
+    "_config": {
+      "visible": "true",
+      "active": "false",
+      "_objectType": "\"\"",
+      "ObjectType": "\"C\"",
+      "rule": "\"862be5a2.a85118\"",
+      "ObjectId": "\"{company}\"",
+      "TimeField": "\"null\"",
+      "DataReceiver": "\"\"",
+      "Metrics": "{\"number\":{\"Conditions\":\"\",\"DisplayName\":\"\",\"Hidden\":false,\"OrderIndex\":0,\"IsCustom\":false,\"isLocked\":false,\"priority\":\"0.0\"},\"company\":{\"Conditions\":\"\",\"DisplayName\":\"\",\"Hidden\":false,\"OrderIndex\":1,\"IsCustom\":false,\"isLocked\":false,\"priority\":\"0.0\"}}",
+      "Children": "[\"c0ded702.05ad88\"]",
+      "metricStore": "{}",
+      "filter": "\"\"",
+      "statusPalette": "\"886cd731.c6e3b8\"",
+      "Conditions": "{\"status\":[\"Error\"],\"value\":[]}",
+      "isCustomRule": "false",
+      "relation": "{\"a19379cc.943ba8\":{\"targetId\":\"1cb7141a.9a14dc\",\"sourceId\":\"a19379cc.943ba8\",\"relation\":{\"targetToSource\":\"children\",\"sourceToTarget\":\"parents\"},\"relationKey\":\"\",\"type\":\"basic\"},\"334e479d.fe7b58\":{\"targetId\":\"1cb7141a.9a14dc\",\"sourceId\":\"334e479d.fe7b58\",\"relation\":{\"targetToSource\":\"children\",\"sourceToTarget\":\"parents\"},\"relationKey\":\"\",\"type\":\"basic\"},\"88a8651e.b6eac8\":{\"targetId\":\"1cb7141a.9a14dc\",\"sourceId\":\"88a8651e.b6eac8\",\"relation\":{\"targetToSource\":\"DE\",\"sourceToTarget\":\"C\"},\"relationKey\":\"company\",\"type\":\"custom\",\"targetName\":\"DE\"}}",
+      "description": "\"\"",
+      "x": 690,
+      "y": 360
+    },
+    "id": "1cb7141a.9a14dc",
+    "_def": {
+      "category": "dataengine",
+      "color": "#98d8de",
+      "defaults": {
+        "visible": {
+          "value": true
+        },
+        "active": {
+          "value": false
+        },
+        "_objectType": {
+          "value": ""
+        },
+        "ObjectType": {
+          "value": "",
+          "required": true
+        },
+        "rule": {
+          "type": "rule",
+          "required": false
+        },
+        "ObjectId": {
+          "value": ""
+        },
+        "TimeField": {
+          "value": ""
+        },
+        "DataReceiver": {
+          "value": ""
+        },
+        "Metrics": {
+          "value": {}
+        },
+        "Children": {
+          "value": []
+        },
+        "metricStore": {
+          "value": {},
+          "required": false
+        },
+        "filter": {
+          "value": ""
+        },
+        "statusPalette": {
+          "value": "",
+          "type": "statusPalette",
+          "required": false
+        },
+        "Conditions": {
+          "value": {
+            "status": [
+              "Undefined"
+            ],
+            "value": []
+          },
+          "required": false
+        },
+        "isCustomRule": {
+          "value": false
+        },
+        "relation": {
+          "value": {}
+        },
+        "description": {
+          "value": ""
+        }
+      },
+      "align": "inner",
+      "toggleIcon": {
+        "inactive": "",
+        "active": ""
+      },
+      "inputs": 1,
+      "outputs": 1,
+      "icon": "object_final.png",
+      "subButton": {
+        "id": "node-dialog-clear",
+        "class": "leftButton",
+        "title": "Clear Data"
+      },
+      "set": {
+        "id": "node-red/object_type",
+        "name": "object_type",
+        "types": [
+          "object type"
+        ],
+        "enabled": true,
+        "local": false,
+        "module": "node-red",
+        "version": "0.16.0-git",
+        "added": true
+      }
+    },
+    "inputs": 1,
+    "outputs": 1,
+    "visible": true,
+    "active": false,
+    "_objectType": "",
+    "ObjectType": "C",
+    "rule": "862be5a2.a85118",
+    "ObjectId": "{company}",
+    "TimeField": "null",
+    "DataReceiver": "",
+    "Metrics": {
+      "number": {
+        "Conditions": "",
+        "DisplayName": "",
+        "Hidden": false,
+        "OrderIndex": 0,
+        "IsCustom": false,
+        "isLocked": false,
+        "priority": "0.0"
+      },
+      "company": {
+        "Conditions": "",
+        "DisplayName": "",
+        "Hidden": false,
+        "OrderIndex": 1,
+        "IsCustom": false,
+        "isLocked": false,
+        "priority": "0.0"
+      }
+    },
+    "Children": [
+      "c0ded702.05ad88"
+    ],
+    "metricStore": {},
+    "filter": "",
+    "statusPalette": "886cd731.c6e3b8",
+    "Conditions": {
+      "status": [
+        "Error"
+      ],
+      "value": []
+    },
+    "isCustomRule": false,
+    "relation": {
+      "a19379cc.943ba8": {
+        "targetId": "1cb7141a.9a14dc",
+        "sourceId": "a19379cc.943ba8",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      },
+      "334e479d.fe7b58": {
+        "targetId": "1cb7141a.9a14dc",
+        "sourceId": "334e479d.fe7b58",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      },
+      "88a8651e.b6eac8": {
+        "targetId": "1cb7141a.9a14dc",
+        "sourceId": "88a8651e.b6eac8",
+        "relation": {
+          "targetToSource": "DE",
+          "sourceToTarget": "C"
+        },
+        "relationKey": "company",
+        "type": "custom",
+        "targetName": "DE"
+      }
+    },
+    "description": "",
+    "ports": [
+      0
+    ],
+    "dirty": false,
+    "valid": true,
+    "w": 100,
+    "h": 30,
+    "_ports": [
+      [
+        {
+          "__data__": 0
+        }
+      ]
+    ],
+    "selected": false
+  }
+]

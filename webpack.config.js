@@ -25,8 +25,9 @@ module.exports = {
       },
       {
         test: /\.json$/,
-        use: "json-loader"
-      }
+        loader: 'json-loader',
+        type: 'javascript/auto'
+    },
     ]
   },
   plugins: [
@@ -36,7 +37,8 @@ module.exports = {
     }),
     new webpack.ProvidePlugin({
       $: 'jquery',
-      jQuery: 'jquery'
+      jQuery: 'jquery',
+      d3: 'd3'
     })
   ],
   devtool: 'source-map'
